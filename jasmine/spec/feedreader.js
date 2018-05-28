@@ -27,16 +27,31 @@ $(function() {
         });
 
 
+
+        function test_object_has_property(object, property) {
+            it('should have ' + property , function() {
+              expect(object[property]).toBeDefined();
+              expect(object[property]).not.toBe('');
+            });
+        }
+
+        
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
+        for(var x = 0; x < allFeeds.length; x++) {
+            test_object_has_property(allFeeds[x], 'URL');
+        }
 
 
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
+        for(var x = 0; x < allFeeds.length; x++) {
+            test_object_has_property(allFeeds[x], 'name');
+        }
     });
 
 
