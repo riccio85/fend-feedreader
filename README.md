@@ -17,6 +17,7 @@ As you open the app, all test cases get executed by Jasmine framework and test r
 - test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container.
 - test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.
 
+
 ## Jasmine-Jquery
 
 In the project it is used to for DOM manipulation or on event (i.e click) test suites. Source and doc here: [https://github.com/velesin/jasmine-jquery](https://github.com/velesin/jasmine-jquery).
