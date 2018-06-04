@@ -8,8 +8,7 @@ This is ["Feed Reader Testing" Project](https://github.com/udacity/frontend-nano
 Clone the project from [this repository](https://github.com/riccio85/fend-arcade-game.git)
 ## How to Run
 
-If you make your own clone of the project just open the index.html in your browser. Otherwise you can see the [live demo](https://riccio85.github.io/fend-feedreader/).
-As you open the app, all test cases get executed by Jasmine framework and test result shows on the page. Here are the list of tests that run:
+If you make your own clone of the project just open the index.html in your browser. As you open the app, all test cases get executed by Jasmine framework and test result shows on the page. Here are the list of tests that run:
 - test that ensures allFeeds objects have a URL property defined and that the URL is not empty.
 - test that ensures allFeeds objects have a name property defined and that the name is not empty.
 - test that ensures the menu element is hidden by default. 
